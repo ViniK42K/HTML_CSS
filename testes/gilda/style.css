@@ -1,0 +1,32 @@
+@charset "UTF-8"; 
+
+body {
+    background-color: rgb(7, 7, 7);
+}
+
+header {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    height: max-content;
+}
+
+#livros {
+    background-color: #F5AA33;
+    color: rgb(255, 255, 255);
+    height: 350px;
+    
+}
+
+#livros > p > a {
+    text-decoration: none;
+    color: black;
+}
+
+#livros > img {
+    width: 179px;
+}
+
+header > nav > p:hover {
+    color: black;
+    text-decoration: underline;
+}

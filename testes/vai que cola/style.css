@@ -1,0 +1,60 @@
+@charset "UTF-8"; 
+
+div {
+
+    background-color: rgb(44, 130, 206);
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+    div#p01 > p {
+        display: none;
+    }
+
+    div#p01:hover > p {
+        display: block;
+        color: aliceblue;
+    }
+
+div#p01:hover {
+    background-color: cadetblue;
+    
+}
+
+
+div#p02 > p {
+    display: none;
+}
+
+div#p02:hover > p {
+    display: block;
+    color: aliceblue;
+}
+
+div#p02:hover {
+    background-color: cornflowerblue;
+}
+
+
+div#p03 > p {
+    display: none;
+}
+
+div#p03:hover > p {
+    display: block;
+    color: aliceblue;
+}
+
+div#p03:hover {
+    background-color: rgb(6, 75, 107);
+}
+
+
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: center;
+}

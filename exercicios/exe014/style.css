@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(116, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    background-color: darkgoldenrod
+}
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(253, 253, 253);
+    text-align: justify;
+}
+a {
+    color: aliceblue;
+}
