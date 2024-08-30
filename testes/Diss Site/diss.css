@@ -1,5 +1,9 @@
 body {
     background-color: dimgrey;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
 }
 
 a {
@@ -7,16 +11,7 @@ a {
     text-decoration: none;
 }
 
-body {
-    
-        height: 100%;
-        margin: 0 auto;
-        text-align: center;
-        width: 100%;
-    
-}
-
-/*style of the all videos*/
+/*style of the all images*/
 
 img#duzz {
     width: 400px;

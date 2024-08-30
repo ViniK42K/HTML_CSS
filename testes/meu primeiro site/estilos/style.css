@@ -1,7 +1,78 @@
-@charset "UTF-8"; 
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Gilda';
+    src: url('/fontes/Bufally.ttf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor1: #F7870A;
+    --cor2: #F7C50A;
+    --cor3: #F7A80A; /* Hearder */
+    --cor4: #F75E0A; /* (mais claro) aside*/
+    --cor5: #F7E20A; 
+    --cor6: #FBDA9A;  /*background*/
+
+    /*White - para algumas coisas
+    Black - letra */
+
+    --fonte_padrão: Arial, Verdana, Helvetica, Sans-serif; 
+    --fonte_destaque: 'Bebas Neue', cursive;
+    --fonte_gilda: 'Gilda', cursive;
+    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
-    background-color: #FBDA9A;
+    background-color: var(--cor6);
+    font-family: var(--fonte_padrão);
+}
+
+header {
+    background-color: var(--cor3);
+}
+
+header > h1 { 
+    color: white;
+    font-family: var(--fonte_destaque);
+}
+
+hearder > p {
+    color: white;
+}
+
+nav {
+    background-color: var(--cor2);
+}
+
+main {
+    background-color: white;
+}
+
+main h1 {
+    color: var(--cor4);
+    font-family: var(--fonte_gilda);
+}
+
+main h2 {
+    font-family: var(--fonte_gilda);
+}
+
+#teste {
+    object-fit: cover;
+    object-position: center;
+    text-align: center;
+}
+
+div /*imagem*/ {
+    text-align: center;
 }
 
 #curva {
@@ -27,6 +98,11 @@ body {
 .container {
     display: flex;
     gap: 5px;
+}
+
+footer {
+    background-color: var(--cor4);
+    color: white;
 }
 
 
